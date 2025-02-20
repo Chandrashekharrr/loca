@@ -45,7 +45,7 @@ const page = () => {
 
 
   return (
-    <div className={`w-full px-5 md:px-12 text-black bg-[#d4c9c9] uppercase`}>
+    <div className={`w-full px-5 md:px-12 text-[#222222] bg-[#d4c9c9] uppercase`}>
       <div
         className={`w-full flex justify-between  text-base md:text-2xl pt-5 md:pt-8 ${neuebold.className}`}
       >
@@ -75,7 +75,7 @@ const page = () => {
         />
       </div>
 
-      <div className="my-10 w-full h-[1px] bg-black "></div>
+      <div className="my-10 w-full h-[1px] bg-[#222222] "></div>
     </div>
   );
 };
