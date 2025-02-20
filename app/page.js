@@ -50,7 +50,7 @@ const page = () => {
         className={`w-full flex justify-between  text-base md:text-2xl pt-5 md:pt-8 ${neuebold.className}`}
       >
         <h1>
-          <a href="https://locomotive.ca/en" data-scroll data-scroll-position = "2rem,5rem"> Locomotive.ca</a>
+          <a href="https://locomotive.ca/en" data-scroll data-scroll-position = "2rem,5rem" className="hover:text-white transition duration-300 ease-in-out"> Locomotive.ca</a>
         </h1>
         <h1>v4.x – Edition</h1>
       </div>
