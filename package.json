@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next-image-export-optimizer --nextConfigPath path/to/my/next.config.mjs",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "locomotive-scroll": "^5.0.0-beta.21",
     "next": "15.1.7",
+    "next-image-export-optimizer": "^1.18.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "postcss": "^8",
